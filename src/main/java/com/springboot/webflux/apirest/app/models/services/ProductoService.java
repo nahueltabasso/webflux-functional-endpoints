@@ -14,6 +14,7 @@ public interface ProductoService {
 	public Mono<Producto> findById(String id);
 	public Mono<Producto> save(Producto producto);
 	public Mono<Void> delete(Producto producto);
+	public Mono<Producto> getByNombre(String nombre); 
 	public Flux<Categoria> findAllCategorias();
 	public Mono<Categoria> findCategoriaById(String id);
 	public Mono<Categoria> saveCategoria(Categoria categoria);

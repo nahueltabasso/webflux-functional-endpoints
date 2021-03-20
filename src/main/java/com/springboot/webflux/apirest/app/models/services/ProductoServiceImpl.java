@@ -50,6 +50,11 @@ public class ProductoServiceImpl implements ProductoService {
 	public Mono<Void> delete(Producto producto) {
 		return productoRepository.delete(producto);
 	}
+	
+	@Override
+	public Mono<Producto> getByNombre(String nombre) {
+		return productoRepository.findByNombre(nombre);
+	}
 
 	@Override
 	public Flux<Producto> findAllConNombreUpperCaseAndRepeat() {
