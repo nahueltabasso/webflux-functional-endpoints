@@ -13,5 +13,6 @@ Instalar el siguiente software en su sistema operativo (Windows, Linux, MacOS)
 * API REST
 * CRUD Entidad
 * Test Unitarios con jUnit
+* Uso de WebTestClient
 * Api Reactor
-* 
+
